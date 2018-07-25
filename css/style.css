@@ -1,0 +1,381 @@
+/*-------------------------------*/
+/*            Typography        #a94442    */
+/*-------------------------------*/
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  font-size: 62px;
+  letter-spacing: -1px;
+  margin-top: 44px;
+  margin-bottom: 0;
+  font-variant: small-caps;
+  color: #5b5b5b;
+}
+
+h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0;
+  margin-bottom: 22px;
+}
+
+h4 {
+  font-family:  'Nunito Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: grey;
+}
+
+h5 {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+h6{
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: #5b5b5b;
+  font-variant: small-caps;
+  margin-bottom: 5px;
+}
+.name {
+  text-transform: uppercase;
+}
+
+p, ul{
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 18px;
+}
+
+.ombra {
+  opacity: 0.9;
+}
+
+.intro {
+    background-image: url(../media/coverdef.jpg);
+    min-height: 248px;
+    background-color: black;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    background-size: cover;
+    background-position-y: -165px;
+    background-repeat: no-repeat;
+}
+
+.intro h5 {
+    color: white;
+    text-align: center;
+    margin-top: 13px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+
+.intro h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 62px;
+    letter-spacing: -1px;
+    margin-bottom: 0;
+    font-variant: small-caps;
+    color: white;
+    margin-top: 12px;
+}
+
+.intro h5,h4,h1{
+  color: white;
+}
+
+.text {
+  padding-top: 20px;
+}
+
+h1 .text-center {
+  margin-top: 0;
+}
+
+h4 .text-center {
+    padding-top: 20px;
+    border-bottom:  1px solid #5b5b5b;
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+}
+
+.left {
+    text-align: left;
+    line-height: 18px;
+    display: flex;
+    margin-top: 0px;
+    padding-top: 0px;
+    font-size: 14px;
+}
+
+.box-sx {
+  font-size: 14px;
+  padding-right: 133px;
+  padding-left: 161px;
+  font-weight: 600;
+}
+
+.box-dx {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+/*.name {
+    text-transform: uppercase;
+}*/
+
+.viz {
+  min-height: 400px;
+  border-top: 1px #d2d2d2 solid;
+  margin:0 auto;
+}
+
+.viz img {
+  min-width: 100%;
+  max-width: 100%;
+}
+
+.howTo {
+  background-color: #f5f5f5;
+  min-height: 300px;
+  padding-top: 24px;
+}
+
+.howTo h5 {
+  font-size: 19px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.howTo p{
+  font-size: 14px;
+  line-height: 150%;
+  padding-bottom: 0px;
+}
+
+.howTo ul li {
+  font-size: 14px;
+}
+
+.howToSide p{
+  font-family: 'Source Code Pro', monospace;
+  font-size: 14px;
+  padding-bottom: 0px;
+  letter-spacing: -1px;
+  margin: 0 0 0px;
+}
+
+#tools {
+  margin-top: 22px;
+}
+
+.intro .col-md-8.col-md-offset-2 {
+  margin-top: 0;
+}
+
+.howTo .col-md-8.col-md-offset-2 {
+    margin-left: 0;
+}
+
+a {
+  color: #f95658;
+}
+
+a:hover {
+  color: #c74446;
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+/* CSS personalizzato */
+
+iframe{
+  width:2000px;
+  height:700px;
+  margin: 0 auto;
+  display: block;
+}
+
+p{
+  text-align:justify;
+}
+
+h5{
+  color: #5b5b5b;
+}
+
+
+#side_menu{
+  position: fixed;
+  top: 40%;
+  background-color: white;
+  border-radius: 0 4px 4px 0;
+  box-shadow: 5px 5px 10px grey;
+  z-index: 20;
+}
+
+@media (max-width: 2000px) {
+  iframe{
+    width:100%;
+    margin: 0 auto;
+  }
+  .viz{
+    width:99%;
+  }
+}
+
+
+
+@media (max-width: 1000px) {
+#side_menu {
+  display: none;
+  }
+}
+
+#side_menu ul{
+  text-align: center;
+  list-style: none;
+  padding: 0;
+}
+
+#side_menu ul li{
+  border-bottom: 1px solid black;
+  padding: 10px;
+}
+
+#side_menu ul li:last-child{
+  border-bottom: none;
+  padding-bottom: 5px;
+}
+
+#side_menu ul li a h5{
+  font-size: 12px;
+  margin-top: -6px;
+}
+
+#side_menu ul li a h5:hover {
+  color: #c74446;
+}
+
+#side_menu ul li a .iconsvg {
+  fill: #8f9396;
+}
+
+#side_menu ul li a .iconsvg:hover  {
+  fill: #c74446;
+}
+
+
+/* box credenziali */
+#info_block{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 20;
+  box-shadow: 0px 0px 15px grey;
+  display: none;
+}
+
+.side_logo{
+  height: 40px;
+  width: 250px;
+  background-color: grey;
+  color:white;
+  cursor: pointer;
+  padding: 10px 0 0px 10px;
+}
+
+.side_logo:hover{
+  background-color: #c74446;
+}
+
+#side_mail{
+  background-color: white;
+  width: 250px;
+  padding:10px;
+  text-align: left;
+  display: none;
+}
+
+#key{
+  height: 20px;
+  width: auto;
+}
+
+#first_paragraph{
+  margin-top: 20px;
+}
+
+.footer {
+  background-image: url(../media/footer.png);
+  min-height: 220px;
+  background-color: black;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  background-size: cover;
+  background-position-y: -173px;
+  background-repeat: no-repeat;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.text {
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 7px;
+  font-size: 12px;
+}
+
+
+.visu{
+  width: 100%;
+  height: auto;
+}
+
+#bicocca{
+  height: 65px;
+  width: auto;
+  margin-bottom: 20px;
+}
+
+.col-md-12.col {
+    margin-bottom: 30px;
+}
+
+.tab-pane {
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+
+#tab_testutente .tab-content img {
+    max-width: 700px;
+}
+
+#tab_psicometrici .tab-content img {
+    max-width: 700px;
+}
+
+ul.nav.nav-tabs {
+    border-bottom: none;
+}
+
+.link-strumenti h5 {
+  margin-bottom: 10px;
+}
